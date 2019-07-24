@@ -28,6 +28,9 @@
 
 #include "libgscaler_obj.h"
 #include "content_protect.h"
+//add by liyang.zhang 
+#define V4L2_MBUS_FMT_XRGB8888_4X8_LE 0x100e
+#define V4L2_MBUS_FMT_YUV8_1X24 0x2013
 
 #if defined(USES_DT)
 char* gsc_open_node(int dev_num) {
